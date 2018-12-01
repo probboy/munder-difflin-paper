@@ -1,0 +1,71 @@
+
+#pageTitle{
+  font-size: 20em;
+  text-align: center;
+  background-color: #4d4d4d;
+  margin: 0 0 -.5em 0;
+  border: 0;
+}
+
+body{
+  background: #4d4d4d;
+}
+
+section {
+  height: 120em;
+  background: #4d4d4d;
+  opacity: 0;
+  margin: 0em 1em 0em 1em;
+  padding: 0em 1em 0em 1em;
+  border: 0em 1em 0em 1em;
+  text-align: center;
+}
+
+section.show {
+  animation: show 2s ease-in-out both;
+  margin: 0em 1em 0em 1em;
+  padding: 0em 1em 0em 1em;
+  border: 0em 1em 0em 1em;
+  text-align: center;
+}
+
+
+img {
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+
+figcaption {
+	text-transform: uppercase;
+	color:wheat;
+  font-size: 10em;
+  text-align: center;
+}
+
+footer {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+  font-size: 15em;
+}
+ 
+
+.paragraph {
+  font-size: 10em;
+}
+
+
+@keyframes show {
+0% {
+  opacity: 0;
+}
+
+100% {
+  opacity: 1;
+}
+
+img{
+  height: 60%
+}
